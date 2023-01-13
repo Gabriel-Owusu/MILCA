@@ -1,8 +1,12 @@
 #' @title Multiple imputation of latent class analysis
 #'
-#' @param
+#' @param item is the data frame containing J categorical variables (the same specified in fs formula) all measured on a categorical scale with K − 1 categories.The categorical variables in item must be coded with consecutive values from 1 to K − 1. All missing values should be coded with NA (see poLCA manual Linzer, D. and Lewis, J. (2011) pag. 8 for details)
+#' @param m_random is the number of M randomly imputed data sets
+#' @param k_categories is the number of categories of the items plus 1 (e.g. if items are measured on a 4 category scale, then K=5)1
+#' @param class is number of latent classes (see poLCA manual pag. 8 for details)
+#' @param rep is the number of times the poLCA procedure has to be iterated in order to avoid local maxima (see poLCA manual)
 #'
-#'
+
 
 
 
